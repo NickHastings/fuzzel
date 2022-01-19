@@ -1,0 +1,18 @@
+fuzzel (1.6.5-1~bpo11+1) bullseye-backports; urgency=medium
+
+  * New upstream release.
+  * Rebuild for bullseye-backports.
+
+ -- Nick Hastings <nicholaschastings@gmail.com>  Wed, 19 Jan 2022 19:00:11 +0900
+
+fuzzel (1.5.4-1~bpo10+1) buster-backports; urgency=medium
+
+  * Rebuild for buster-backports.
+
+ -- Nick Hastings <nicholaschastings@gmail.com>  Tue, 15 Jun 2021 15:19:44 +0900
+
+fuzzel (1.5.4-1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Nick Hastings <nicholaschastings@gmail.com>  Tue, 15 Jun 2021 15:16:21 +0900

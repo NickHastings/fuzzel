@@ -1,0 +1,16 @@
+Source: fuzzel
+Section: x11
+Priority: optional
+Maintainer: Nick Hastings <nicholaschastings@gmail.com>
+Build-Depends: debhelper (>=11~), libfcft-dev (>=2.4)
+Standards-Version: 4.5.1
+Homepage: https://codeberg.org/dnkl/fuzzel
+
+Package: fuzzel
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Launcher for wlroots based compositors
+ Application launcher for wlroots based Wayland compositors, similar
+ to rofi's `drun` mode.
+
