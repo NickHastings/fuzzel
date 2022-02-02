@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Nick Hastings <nicholaschastings@gmail.com>
 Build-Depends: debhelper (>=11~), libfcft-dev (>=2.4)
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0.1
 Vcs-Browser: https://github.com/NickHastings/fuzzel-debian
 Vcs-Git: https://github.com/NickHastings/fuzzel-debian.git
 Homepage: https://codeberg.org/dnkl/fuzzel
