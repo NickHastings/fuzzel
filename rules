@@ -7,3 +7,4 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 override_dh_auto_install:
 	dh_auto_install
 	find ./debian -type f -name "LICENSE" -delete
+	mv debian/fuzzel/usr/share/zsh/site-functions debian/fuzzel/usr/share/zsh/vendor-completions
