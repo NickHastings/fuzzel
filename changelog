@@ -1,3 +1,9 @@
+fuzzel (1.7.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Nick Hastings <nicholaschastings@gmail.com>  Sun, 06 Feb 2022 09:21:48 +0900
+
 fuzzel (1.6.5-1~bpo11+2)  bullseye-backports; urgency=medium
 
   * Fix wrong installation directory for zsh completions 
