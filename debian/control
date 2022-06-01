@@ -1,0 +1,18 @@
+Source: fuzzel
+Section: x11
+Priority: optional
+Maintainer: Nick Hastings <nicholaschastings@gmail.com>
+Build-Depends: debhelper (>=11~), meson, ninja-build, libwayland-dev, libxkbcommon-dev, libfcft-dev (>=3.0), libfcft-dev (<<4.0), libtllist-dev, libfontconfig-dev, libpixman-1-dev, wayland-protocols, libharfbuzz-dev, libcairo2-dev, librsvg2-dev, scdoc
+Standards-Version: 4.6.0.1
+Vcs-Browser: https://github.com/NickHastings/fuzzel-debian
+Vcs-Git: https://github.com/NickHastings/fuzzel-debian.git
+Homepage: https://codeberg.org/dnkl/fuzzel
+
+Package: fuzzel
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Launcher for wlroots based compositors
+ Application launcher for wlroots based Wayland compositors, similar
+ to rofi's `drun` mode.
+
