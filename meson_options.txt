@@ -1,3 +1,0 @@
-option('enable-cairo', type: 'feature', description: 'use cairo; required for rounded corners and SVG icons (librsvg backend)')
-option('png-backend', type: 'combo', choices: ['none', 'libpng'], value: 'libpng', description: 'enable support for PNG icons')
-option('svg-backend', type: 'combo', choices: ['none', 'librsvg', 'nanosvg'], value: 'nanosvg', description: 'enables support for SVG icons (librsvg: also requires cairo, nanosvg: bundled)')
